@@ -18,7 +18,6 @@ void setup()
   pinMode(6, OUTPUT);
   pinMode(5, OUTPUT);
   pinMode(2, OUTPUT);
-  //pinMode(12, OUTPUT);
   delay(10);
 }
 
