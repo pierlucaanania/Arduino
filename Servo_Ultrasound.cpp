@@ -13,7 +13,6 @@ void setup()
 {
   pinMode(A0, INPUT);
   Serial.begin(9600);
-  //pinMode(11, OUTPUT);
   servo_3.attach(3, 500, 2500);
   pinMode(7, OUTPUT);
   pinMode(6, OUTPUT);
