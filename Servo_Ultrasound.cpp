@@ -44,7 +44,7 @@ void loop()
   } else {
     digitalWrite(2,LOW);
   }
-  delay(100); // Delay a little bit to improve simulation performance
+  delay(100);
   a=sr04.Distance();
   Serial.println("Distance value: ");
   Serial.print(a);
