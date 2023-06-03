@@ -46,9 +46,9 @@ void loop()
   }
   delay(100);
   a=sr04.Distance();
-  Serial.println("Distance value: ");
+  Serial.println("Distance value:  ");
   Serial.print(a);
-  Serial.println("cm");
+  Serial.println("cm ");
   delay(100);
 }
 // Arduino code
