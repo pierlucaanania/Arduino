@@ -13,5 +13,5 @@ void loop()
   analogWrite(5, map(analogRead(A0), 0, 1023, 0, 255));
   analogWrite(9, map(analogRead(A0), 0, 1023, 0, 255));
   Serial.println(map(analogRead(A0), 0, 1023, 0, 255));
-  delay(10); // Delay a little bit to improve simulation performance
+  delay(100); // Delay a little bit to improve simulation performance
 }

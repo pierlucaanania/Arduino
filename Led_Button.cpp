@@ -14,5 +14,5 @@ void loop()
   } else {
     analogWrite(10, 0);
   }
-  delay(1000); // Delay a little bit to improve simulation performance
+  delay(100); // Delay a little bit to improve simulation performance
 }

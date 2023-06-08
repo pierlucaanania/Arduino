@@ -35,5 +35,5 @@ void loop()
     digitalWrite(10, LOW);
     
   }
-  delay(10); // Delay a little bit to improve simulation performance
+  delay(100); // Delay a little bit to improve simulation performance
 }

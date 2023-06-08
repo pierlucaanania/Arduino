@@ -6,7 +6,7 @@ long a;
 
 void setup() {
    Serial.begin(9600);
-   delay(10);
+   delay(100);
 }
 
 void loop() {
