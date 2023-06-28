@@ -37,7 +37,7 @@ void stopTime(int mS){
 
 void ultrasound(){
   distance = hc.dist()
-  Serial.println(hc.dist()); // return curent distance in serial
+  Serial.println(hc.dist()); // return current distance in serial
   delay(200);
 
 }
