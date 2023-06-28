@@ -1,7 +1,6 @@
-// Parte iniziale da es_parcheggio_internet
+/// ELEGOO CAR PARK ASSISTAN WITH ULTRASOUND
 
 #include <HCSR04.h>
-
 
 // define IO pin
 #define PWMA 5    // Controls power to right motor
